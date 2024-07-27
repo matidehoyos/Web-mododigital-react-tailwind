@@ -7,9 +7,9 @@ function App() {
 
   return (
     <div className='h-auto'>
-      <NavBar />
-      <Header />
-      <Tipos />
+        <NavBar />
+        <Header />
+        <Tipos />
     </div>
   )
 }
