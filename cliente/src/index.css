@@ -27,7 +27,11 @@ body {
 
   @media (max-width: 600px) {
     body {
-      overflow: hidden;
+      overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+      display: none;
     }
   }
   
