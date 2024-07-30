@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
   return (
-        <div className="bg-[url('./bg5.jpeg')] bg-cover bg-center h-auto w-screen pt-[55px] pb-36">
+        <div className="bg-[url('../../public/bg5.jpeg')] bg-cover bg-center h-auto w-screen pt-[55px] pb-36">
                 <p className='w-auto m-auto tracking-[0.4px] text-[#fff] opacity-75 text-center text-[16px] font-bold drop-shadow-sm'>¿Buscas un sitio web de categoria?</p>
                 <img src="./marca1.png" alt="Logo Modo Digital." className='w-[64%] mx-auto mt-12' />
                 <h1 className='mx-auto text-center text-white opacity-95 font-montserrat font-[600] text-[46px] tracking-[-1.1px] leading-10 drop-shadow-md'>Diseño web<br/>profesional</h1>
