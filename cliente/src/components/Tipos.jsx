@@ -3,21 +3,21 @@ import { FaCheck } from 'react-icons/fa'
 
 const Tipos = () => {
   return (
-    <div class="w-screen pt-[40px] bg-white">
-        <h2 className='font-bold text-center text-[20px] text-black opacity-85'>¿Que tipos de webs creamos?</h2>
-        <div className='w-screen flex-col pt-[40px]'>
+    <div class="w-screen pt-[80px] bg-white">
+        <h2 className='font-extrabold text-center text-[22px] text-verde-900 drop-shadow'>¿Que tipos de webs creamos?</h2>
+        <div className='w-screen flex-col pt-[60px]'>
             <div className='mb-12 pl-[20px] flex-col justify-start items-start'>
-                <img src="./ecommerce.png" className='w-[30%]' alt="Ilustracion de comercio electronico." />
+                <img src="./ecommerce.png" className='w-[26%]' alt="Ilustracion de comercio electronico." />
                 <h3 className='pt-3 text-[20px] text-azul-900 drop-shadow font-bold'>E-commerce</h3>
                 <p className='w-[90%] pt-2 text-[18px] font-bold tracking-tight leading-[20px] opacity-85'>Vende por vos las 24hs. Carrito de compras y metodos de pago.</p>
             </div>
             <div className='mb-12 pl-[20px] flex-col justify-start items-start'>
-                <img src="./institucional.png" className='w-[34%]' alt="Ilustracion de web institucional." />
+                <img src="./institucional.png" className='w-[28%]' alt="Ilustracion de web institucional." />
                 <h3 className='pt-3 text-[20px] text-azul-900 drop-shadow  font-bold'>Institucional</h3>
                 <p className='w-[90%] pt-2 text-[18px] font-bold tracking-tight leading-[20px] opacity-85'>Reune la informacion relevante del negocio, club, etc. Redes sociales, medios de contacto, blog, canal de difusion.</p>
             </div>
             <div className='mb-12 pl-[20px] flex-col justify-start items-start'>
-                <img src="./landing.png" className='w-[34%]' alt="Ilustracion de  landing page." />
+                <img src="./landing.png" className='w-[28%]' alt="Ilustracion de  landing page." />
                 <h3 className='pt-3 text-[20px] text-azul-900 drop-shadow font-bold'>Landing page</h3>
                 <p className='w-[90%] pt-2 text-[18px] font-bold tracking-tight leading-[20px] opacity-85'>Ideales para campañas publicitarias. Destinadas a un público y objetivo especifico. Convierte visitantes en clientes.</p>
             </div>
