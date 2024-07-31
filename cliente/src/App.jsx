@@ -1,4 +1,5 @@
 import './App.css'
+import Ecommerce from './components/Ecommerce'
 import Emprend from './components/Emprend'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
@@ -11,6 +12,7 @@ function App() {
         <NavBar />
         <Header />
         <Tipos />
+        <Ecommerce />
         <Emprend />
     </div>
   )
