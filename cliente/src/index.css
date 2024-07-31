@@ -12,7 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-image: url('./bg5.jpeg');
+  background-image: url('../public/bg5.jpeg');
   background-size: cover;
 }
 
@@ -22,8 +22,7 @@ body {
     place-items: center;
     width: 100vw;
     min-height: 100vh;
-    color: #333;
-    background-color: #1bff45;
+    color: #007324;
     overflow-x: hidden;
   }
 
