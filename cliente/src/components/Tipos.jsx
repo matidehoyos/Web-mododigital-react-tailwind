@@ -4,8 +4,8 @@ import { FaCheck } from 'react-icons/fa'
 const Tipos = () => {
   return (
     <div class="w-screen bg-slate-300 pb-20">
-        <div className='w-[80%] m-auto py-6 px-4 bg-gradient-to-r from-azul-900 to-verde-900 shadow-lg rounded-md relative -top-14'>
-            <p className='text-white text-[18px] text-start text-pretty font-semibold tracking-wide drop-shadow leading-[22px]'>Nos adaptamos a la imagen de tu marca, creando un diseño que la impulse, y auto administrable, para que tengas el total control.</p>
+        <div className='w-[86%] m-auto py-8 px-4 bg-gradient-to-r from-azul-900 to-verde-900 shadow-lg rounded-md relative -top-12 opacity-85'>
+            <p className='text-white text-[24px] text-center text-pretty font-bold tracking-wide shadow-xl leading-[24px]'>Nos adaptamos a la imagen de tu marca, creando un diseño que la impulse, y auto administrable, para que tengas el total control.</p>
         </div>
         <h2 className='font-bold text-center text-[18px] text-neutral-800'>¿Que tipos de webs creamos?</h2>
         <div className='w-screen flex-col mt-14'>
