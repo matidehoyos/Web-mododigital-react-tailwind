@@ -3,10 +3,10 @@ import { FaCheck } from 'react-icons/fa';
 
 const Ecommerce = () => {
   return (
-    <div className='w-screen py-16 px-[15px] bg-slate-50'>
-    <h4 className='text-[24px] text-black opacity-90 font-bold'>Ecommerce</h4>
-    <p className='text-[18px] text-black opacity-70 font-bold'>Que incluye?</p>
-    <ul class="mt-1 pt-4 list-none text-[16px] font-semibold drop-shadow text-black opacity-80 tracking-tight border-t border-black border-opacity-60">
+    <div className='w-screen py-16 px-[15px] bg-black bg-opacity-85'>
+    <h4 className='text-[24px] text-white opacity-90 font-bold'>Ecommerce</h4>
+    <p className='text-[18px] text-white opacity-70 font-bold'>Que incluye?</p>
+    <ul class="mt-1 pt-4 list-none text-[16px] font-semibold drop-shadow text-slate-200 opacity-80 tracking-tight border-t border-black border-opacity-60">
       <li class="flex items-baseline mb-[2px]"><FaCheck class="mr-1 text-verde-900 text-[10px]" />Panel de control autoadministrable.</li>
       <li class="flex items-baseline mb-[2px]"><FaCheck class="mr-1 text-verde-900 text-[10px]"/>Productos y categorias ilimitados.</li>
       <li class="flex items-baseline mb-[2px]"><FaCheck class="mr-1 text-verde-900 text-[10px]" />Metodos de pago en linea.</li>
