@@ -12,18 +12,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-  background-image: url('../public/bg5.jpeg');
-  background-size: cover;
 }
 
 body {
-    margin: 0;
-    display: flex;
-    place-items: center;
-    width: 100vw;
-    min-height: 100vh;
-    color: #007324;
-    overflow-x: hidden;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #007324;
+  overflow-x: hidden;
+  background-image: url('../public/bg5.jpeg');
+  background-size: cover;
   }
 
 
