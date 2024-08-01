@@ -3,8 +3,8 @@ import { FaCheck } from 'react-icons/fa';
 
 const Ecommerce = () => {
   return (
-    <div className='w-screen py-16 px-[15px] bg-gray-200'>
-    <img src="./eco.png" alt="imagen pagina web" className='w-[40%] mb-4' />    
+    <div className='w-screen py-16 px-[15px] bg-gray-300'>
+    <img src="./eco.png" alt="imagen pagina web" className='w-[26%] absolute right-10' />    
     <h4 className='text-[24px] text-gray-800 opacity-90 font-bold'>Ecommerce</h4>
     <p className='text-[18px] text-gray-700 opacity-70 font-bold'>Que incluye?</p>
     <ul class="mt-1 pt-4 list-none text-[16px] font-semibold drop-shadow text-gray-700 tracking-tight border-t border-white border-opacity-60">
