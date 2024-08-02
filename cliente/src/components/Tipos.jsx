@@ -3,7 +3,7 @@ import { FaBuilding, FaCaretRight, FaCartPlus, FaCheck, FaPlaneArrival, FaStore,
 
 const Tipos = () => {
   return (
-    <div class="w-screen py-[50px] bg-[rgb(120,120,120)]">
+    <div class="w-screen py-[50px] bg-[rgb(90,90,90)]">
         <h2 className='font-bold text-center text-[20px] tracking-wide text-[#10d6e4] drop-shadow'>¿Que tipos de webs creamos?</h2>
         <div className='w-screen flex-col pt-[40px]'>
             <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#272727] rounded-[12px] border border-[#033b3f] shadow-lg shadow-[#033b3f]'>
@@ -28,14 +28,14 @@ const Tipos = () => {
                       <li class="flex items-baseline"><FaCheck class="mr-2 text-[#07676e] text-[12px]" />Newsletter.</li>
                     </ul>            
               </div>
-            <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#272727] rounded-[12px] border border-[#033b3f] shadow-lg shadow-[#033b3f]'>
-                  <FaPlaneArrival className='text-[#033b3f] text-[20px]' />
+            <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#272727] rounded-[12px] border border-[#07676e] shadow-lg shadow-[#07676e]'>
+                  <FaPlaneArrival className='text-[#07676e] text-[20px]' />
                   <h3 className='text-[22px] mt-2 text-white opacity-70 drop-shadow font-bold'>Landing page</h3>
-                  <ul class="mt-2 pt-2 list-none text-[16px] font-semibold drop-shadow text-white tracking-[.3px] opacity-60 border-t border-[#033b3f] border-opacity-50">
-                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#033b3f] text-[12px]" />Ideal p/ campaña publicitaria.</li>
-                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#033b3f] text-[12px]" />Convierte visitantes en clientes.</li>
-                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#033b3f] text-[12px]"/>Diseño basado en el producto.</li>
-                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#033b3f] text-[12px]" />Enbudo de venta.</li>
+                  <ul class="mt-2 pt-2 list-none text-[16px] font-semibold drop-shadow text-white tracking-[.3px] opacity-60 border-t border-[#07676e] border-opacity-50">
+                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#07676e] text-[12px]" />Ideal p/ campaña publicitaria.</li>
+                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#07676e] text-[12px]" />Convierte visitantes en clientes.</li>
+                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#07676e] text-[12px]"/>Diseño basado en el producto.</li>
+                      <li class="flex items-baseline"><FaCheck class="mr-2 text-[#07676e] text-[12px]" />Enbudo de venta.</li>
                     </ul>            
               </div>
            
