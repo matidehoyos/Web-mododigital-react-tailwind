@@ -39,7 +39,7 @@ const Tipos = () => {
                     </ul>            
               </div>
               <div className="w-screen mt-[70px] bg-[url('/diseno.jpeg')] bg-cover bg-center ">
-                  <h3 className='py-[150px] text-white text-[28px] font-[700] text-center leading-[32px] tracking-[.4px] drop-shadow'>Diseños interactivos, profesionales y elegantes</h3>
+                  <h3 className='py-[150px] bg-black bg-opacity-30 text-white text-[26px] font-[600] text-center leading-[32px] tracking-[.4px] drop-shadow'>Diseños interactivos, profesionales y elegantes</h3>
               </div>
         </div> 
     </div>
