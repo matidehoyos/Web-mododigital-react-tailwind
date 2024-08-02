@@ -25,10 +25,10 @@ const Carasterist = () => {
     <div className="w-screen py-[70px] flex-col items-center justify-center bg-[#111]">
         {
             data.map(box => (
-                <div className="w-[100%] mb-[45px] px-10 rounded-lg ">
-                    <h2 className="text-xl font-semibold mb-2">{box.title}</h2>
-                    <img src={box.image} alt={box.title} className="w-full h-[250px] object-cover object-top mb-2 opacity-80"  />
-                    <p>{box.paragraph}</p>
+                <div className="w-[100%] mb-[45px] px-8">
+                    <h2 className="text-xl text-verde-900 font-semibold mb-2">{box.title}</h2>
+                    <img src={box.image} alt={box.title} className="w-full h-[160px] object-cover object-top mb-2 opacity-60"  />
+                    <p className='text-white opacity-85 text-[17px] font-[500] tracking-[.5px] leading-[21px]'>{box.paragraph}</p>
                 </div>
             ))
         }
