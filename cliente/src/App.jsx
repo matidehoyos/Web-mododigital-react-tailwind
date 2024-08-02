@@ -3,6 +3,7 @@ import Ecommerce from './components/Ecommerce'
 import Emprend from './components/Emprend'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
+import Portfolio from './components/Portfolio'
 import Tipos from './components/Tipos'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Tipos />
         <Ecommerce />
         <Emprend />
+        <Portfolio />
     </div>
   )
 }
