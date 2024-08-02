@@ -1,4 +1,5 @@
 import './App.css'
+import Carasterist from './components/Caracterist'
 import Ecommerce from './components/Ecommerce'
 import Emprend from './components/Emprend'
 import Header from './components/Header'
@@ -18,6 +19,7 @@ function App() {
         <Emprend />
         <Portfolio />
         <Interact />
+        <Carasterist />
     </div>
   )
 }
