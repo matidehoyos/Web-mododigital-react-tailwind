@@ -3,8 +3,8 @@ import { FaBuilding, FaCaretRight, FaCartPlus, FaCheck, FaPlaneArrival, FaStore,
 
 const Tipos = () => {
   return (
-    <div class="w-screen py-[50px] bg-gradient-to-tl from-white to-gray-200">
-        <h2 className='font-bold text-center text-[20px] tracking-wide text-gray-800 drop-shadow'>¿Que tipos de webs creamos?</h2>
+    <div class="w-screen py-[50px] bg-[rgb(120,120,120)]">
+        <h2 className='font-bold text-center text-[20px] tracking-wide text-[#10d6e4] drop-shadow'>¿Que tipos de webs creamos?</h2>
         <div className='w-screen flex-col pt-[40px]'>
             <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#272727] rounded-[12px] border border-[#033b3f] shadow-lg shadow-[#033b3f]'>
                   <FaStore className='text-[#07676e] text-[20px]' />
