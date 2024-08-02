@@ -14,7 +14,7 @@ const data = [
   {
     title: 'SEO friendly',
     image: 'seo.jpg',
-    paragraph: 'Los sitios estan arquitectamente estructurados para que se pisiciones organicamente en los principales buscadores, como Google, Bing, etc.',
+    paragraph: 'Arquitectamente estructurados para posicionarse organicamente en los principales buscadores, como Google, Bing, etc.',
   },
 ];
 
