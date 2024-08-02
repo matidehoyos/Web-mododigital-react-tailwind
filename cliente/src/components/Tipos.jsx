@@ -3,9 +3,9 @@ import { FaBuilding, FaCaretRight, FaCartPlus, FaCheck, FaPlaneArrival, FaStore,
 
 const Tipos = () => {
   return (
-    <div class="w-screen pt-[50px] bg-[rgb(40,40,40)]">
-        <h2 className='font-bold text-center text-[20px] tracking-wide text-[#ffffffa2] drop-shadow'>¿Que tipos de webs creamos?</h2>
-        <div className='w-screen flex-col pt-[40px]'>
+    <div class="w-screen pt-[50px] bg-[rgb(30,30,30)]">
+        <h2 className='text-[20px] font-[600] text-center tracking-[.5px] text-verde-900 opacity-85 drop-shadow'>¿Que tipos de webs creamos?</h2>
+      {/*}  <div className='w-screen flex-col pt-[40px]'>
             <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#171717] rounded-[12px] border border-[#07676e] shadow-xl shadow-[#07676e7b]'>
                   <FaStore className='text-[#07676e] text-[20px]' />
                   <h3 className='text-[22px] mt-2 text-white opacity-70 drop-shadow font-bold'>Tienda online</h3>
@@ -40,8 +40,8 @@ const Tipos = () => {
               </div>
               <div className="w-screen mt-[70px] bg-[url('/diseno.jpeg')] bg-cover bg-center ">
                   <h3 className='py-[150px] bg-black bg-opacity-30 text-white text-[26px] font-[600] text-center leading-[32px] tracking-[.4px] drop-shadow'>Diseños interactivos, profesionales y elegantes</h3>
-              </div>
-        </div> 
+                  </div> 
+              </div>*/}
     </div>
   );
 };
