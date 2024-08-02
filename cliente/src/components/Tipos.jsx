@@ -4,7 +4,7 @@ import { FaBuilding, FaCaretRight, FaCartPlus, FaCheck, FaPlaneArrival, FaStore,
 const Tipos = () => {
   return (
     <div class="w-screen pt-[50px] bg-[rgb(30,30,30)]">
-        <h2 className='text-[20px] font-[600] text-center tracking-[.5px] text-verde-900 opacity-85 drop-shadow'>¿Que tipos de webs creamos?</h2>
+        <h2 className='text-[20px] font-[400] text-center tracking-[.5px] text-white opacity-80 drop-shadow'>¿Que tipos de webs creamos?</h2>
       {/*}  <div className='w-screen flex-col pt-[40px]'>
             <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#171717] rounded-[12px] border border-[#07676e] shadow-xl shadow-[#07676e7b]'>
                   <FaStore className='text-[#07676e] text-[20px]' />
