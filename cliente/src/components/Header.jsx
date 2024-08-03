@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
         <div className="bg-[url('/bg7.jpg')] bg-cover bg-center bg-no-repeat xl:bg-[url('/bgxl.jpeg')] xl:bg-bottom xl:bg-fixed h-[100vh] xl:h-[900px] xl:pb-[120px] w-screen">
-                <div className='w-screen h-[100vh] xl:h-[900px] bg-black bg-opacity-75 xl:bg-opacity-65 blur-sm xl:blur-lg absolute overflow-hidden' data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-sine"></div>
+                <div className='w-screen h-[100vh] xl:h-[900px] bg-black bg-opacity-75 xl:bg-opacity-65 blur-sm xl:blur-lg absolute overflow-hidden' data-aos="fade-down" data-aos-duration="1700" data-aos-easing="ease-in-sine"></div>
                 <button className='p-[9px] xl:p-[16px] z-50 bg-[#000] fixed bottom-[15px] right-[10px] xl:right-[20px] rounded-[50%] border border-verde-900'><a href="https://api.whatsapp.com/send?phone=542236901801" target="_blank" rel="noopener noreferrer"><FaWhatsapp className='text-[34px] text-verde-900'/></a></button>
                 <p className='m-auto pt-[80px] md:pt-[100px] xl:pt-[120px] tracking-[0.3px] text-[rgb(190,190,190)] opacity-95 text-center text-[16px] md:text-[22px] xl:text-[24px] font-montserrat font-[600] italic' data-aos="fade-up" data-aos-duration="800">¿Buscas un sitio a tu medida?</p>
                 <img src="./logoxl.png" alt="Logo Modo Digital." className='w-[240px] md:w-[400px] xl:w-[440px] h-[50px] xl:h-auto px-2 center object-contain mx-auto mt-12 opacity-95 bg-black bg-opacity-10' data-aos="fade-up" data-aos-duration="800"/>

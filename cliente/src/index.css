@@ -5,7 +5,6 @@
 
 :root {
   width: 100vw;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,7 +19,7 @@ body {
   place-items: center;
   width: 100vw;
   min-height: 100vh;
-  background-color: #033b3f;
+  background-color: #333;
   overflow-x: hidden;
   behavior: 'smooth';
   }
