@@ -47,16 +47,16 @@ const Preguntas = () => {
 
   return (
     <div className='py-[70px] xl:py-[100px] px-[15px] xl:px-[140px] bg-[#080808]' id='frec'>
-      <h4 className='mb-[22px] xl:mb-[40px] text-[22px] xl:text-[28px] font-[700] tracking-[.6px] text-gray-400'>Preguntas frecuentes</h4>
+      <h4 className='mb-[22px] xl:mb-[40px] text-[22px] xl:text-[28px] font-[700] tracking-[.6px] text-gray-600 drop-shadow'>Preguntas frecuentes</h4>
       {preguntas.map((pregunta) => (
         <div key={pregunta.id} className='bg-[#0c0c0c] mb-2 xl:mb-3'>
           <button 
-            className='w-[100%] py-1 xl:px-2 text-[#797979] text-[18px] xl:text-[20px] font-[500] xl:font-[700] text-left tracking-[.5px] '
+            className='w-[100%] py-1 xl:px-2 text-[#8e8e8e] text-[18px] xl:text-[20px] font-[700] xl:font-[700] text-left tracking-[.5px] dropshadow'
             onClick={() => toggleRespuesta(pregunta.id)}
           >
             {pregunta.pregunta}
           </button>
-          {pregunta.abierto && <p className='xl:w-[75%] py-3 xl:py-4 xl:px-4 text-gray-400 text-[16px] xl:text-[18px] font-[600] tracking-[.6px] leading-[21px] xl:leading-[24px]'>{pregunta.respuesta}</p>}
+          {pregunta.abierto && <p className='xl:w-[75%] py-3 xl:py-4 xl:px-4 text-gray-600 text-[16px] xl:text-[18px] font-[600] tracking-[.8px] leading-[22px] xl:leading-[24px] drop-shadow'>{pregunta.respuesta}</p>}
         </div>
       ))}
     </div>
