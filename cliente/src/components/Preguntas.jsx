@@ -51,7 +51,7 @@ const Preguntas = () => {
       {preguntas.map((pregunta) => (
         <div key={pregunta.id} className='bg-[#0c0c0c] mb-2 xl:mb-3'>
           <button 
-            className='w-[100%] py-1 xl:px-2 text-[#10855a] text-[18px] xl:text-[20px] font-[600] xl:font-[700] text-left tracking-[.5px] '
+            className='w-[100%] py-1 xl:px-2 text-[#797979] text-[18px] xl:text-[20px] font-[500] xl:font-[700] text-left tracking-[.5px] '
             onClick={() => toggleRespuesta(pregunta.id)}
           >
             {pregunta.pregunta}
