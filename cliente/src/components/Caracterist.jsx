@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 const data = [
   {
     title: 'Responsive design',
-    image: 'respon.png',
+    image: 'respon.jpg',
     paragraph: 'Los sitios cuentan con un diseño pensado para una excelente adaptabilidad a los diferentes dispositivos.',
   },
   {
