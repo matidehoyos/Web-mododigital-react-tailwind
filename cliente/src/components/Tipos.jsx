@@ -1,10 +1,24 @@
 import React from 'react';
 import { FaBuilding, FaCaretRight, FaCartPlus, FaCheck, FaPlaneArrival, FaStore, FaTencentWeibo } from 'react-icons/fa';
+import Ecommerce from './Ecommerce';
+import Emprend from './Emprend';
+import Portfolio from './Portfolio';
 
 const Tipos = () => {
   return (
-    <div class="w-screen pt-[50px] bg-[rgb(30,30,30)]" id="tipos">
-        <h2 className='text-[20px] font-[500] text-center tracking-[.5px] text-white opacity-70 drop-shadow'>¿Que tipos de webs creamos?</h2>
+    <div class="w-[100%] pt-[50px] xl:py-[100px]  bg-[rgb(30,30,30)] xl:bg-[#111]" id="tipos">
+        <h2 className='text-[20px] xl:text-[28px] font-[500] text-center tracking-[.5px] text-white opacity-70 drop-shadow'>¿Que tipos de webs creamos?</h2>
+        <div className='w-[100%] xl:w-[90%] xl:py-[90px] xl:mx-auto xl:flex xl:justify-center xl:items-strech xl:gap-10'>
+          <div className='xl:w-[29%] xl:bg-[#111] overflow-x-hidden xl:border xl:border-black xl:rounded-md'>
+            <Ecommerce />
+          </div>
+          <div className='xl:w-[29%] xl:bg-gray-200 overflow-x-hidden xl:border xl:border-black xl:rounded-md'>
+            <Emprend />
+          </div>
+          <div className='xl:w-[29%] xl:bg-[#1c3133] overflow-x-hidden xl:border xl:border-black xl:rounded-md'>
+            <Portfolio />
+          </div>
+        </div>
       {/*}  <div className='w-screen flex-col pt-[40px]'>
             <div className='w-[80%] mx-auto mb-8 p-4 flex-col justify-start items-center bg-[#171717] rounded-[12px] border border-[#07676e] shadow-xl shadow-[#07676e7b]'>
                   <FaStore className='text-[#07676e] text-[20px]' />

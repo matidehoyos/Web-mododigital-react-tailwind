@@ -18,9 +18,6 @@ function App() {
         <NavBar />
         <Header />
         <Tipos />
-        <Ecommerce />
-        <Emprend />
-        <Portfolio />
         <Interact />
         <Carasterist />
         <Contacto />
