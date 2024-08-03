@@ -6,7 +6,7 @@ import Portfolio from './Portfolio';
 
 const Tipos = () => {
   return (
-    <div class="w-[100%] pt-[50px] xl:py-[100px]  bg-[rgb(30,30,30)] xl:bg-[#111]" id="tipos">
+    <div class="w-[100%] pt-[50px] xl:pt-[100px] xl:pb-[30px]  bg-[rgb(30,30,30)] xl:bg-[#111]" id="tipos">
         <h2 className='text-[20px] xl:text-[28px] font-[500] text-center tracking-[.5px] text-white opacity-70 drop-shadow'>¿Que tipos de webs creamos?</h2>
         <div className='w-[100%] xl:w-[90%] xl:py-[90px] xl:mx-auto xl:flex xl:justify-center xl:items-strech xl:gap-10'>
           <div className='xl:w-[29%] xl:bg-[#111] overflow-x-hidden xl:border xl:border-black xl:rounded-md'>
