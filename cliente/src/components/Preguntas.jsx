@@ -11,7 +11,7 @@ const Preguntas = () => {
     {
       id: 1,
       pregunta: '¿Cómo cotizar tu web?',
-      respuesta: 'Envianos un WhatsApp o un mensaje en Instagram, contandonos la idea, caracteristicas del proyecto, objetivos, y cotizaremos a la brevedad.',
+      respuesta: 'Contáctanos por los canales de comunicación directa que tenemos mas arriba, contandonos la idea, caracteristicas del proyecto, objetivos, y cotizaremos a la brevedad.',
     },
     {
       id: 2,
@@ -26,17 +26,17 @@ const Preguntas = () => {
     {
       id: 4,
       pregunta: '¿Tiempos de entrega?',
-      respuesta: 'El producto estará listo para su entrega y usabilidad, a partir del septimo dia habil desde el ingraso de la seña correspondiente.',
+      respuesta: 'El producto estará listo para su entrega y usabilidad, a partir del séptimo dia hábil desde el ingreso de la seña correspondiente.',
     },
     {
       id: 5,
-      pregunta: '¿Metodos de pago?',
+      pregunta: '¿Métodos de pago?',
       respuesta: 'Al momento aceptamos transferencia bancaria, o pago en efectivo.',
     },
     {
       id: 6,
-      pregunta: '¿Que debes proporcionarnos?',
-      respuesta: 'Deberas proporcionar, de tenerlos, logos, colores, informacion del negocio, publico a quien sera dirigida, y todo lo relevante que quieras plasmar en el sitio.',
+      pregunta: '¿Que debés proporcionarnos?',
+      respuesta: 'Deberás proporcionar, de tenerlos, logos, colores, información que caracterice al proyecto. Público a quien será dirigida, como el proposito de la misma. Todo lo relevante que quieras plasmar en el sitio.',
     },
     
 

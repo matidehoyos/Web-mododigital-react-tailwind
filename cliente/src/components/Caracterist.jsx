@@ -11,12 +11,12 @@ const data = [
   {
     title: 'Diseño exclusivo',
     image: 'disweb.jpg',
-    paragraph: 'Creamos el sitio basado firmemente en tu marca y caracteristicas. Brindamos atencion personalizada para cada caso en particular.',
+    paragraph: 'Creamos el sitio basado firmemente en tu marca y características. Brindamos atención personalizada para cada cliente en particular.',
   },
   {
     title: 'SEO friendly',
     image: 'seo.jpg',
-    paragraph: 'Arquitectamente estructurados para posicionarse organicamente en los principales buscadores, como Google, Bing, etc.',
+    paragraph: 'Arquitectónicamente estructurados para posicionarse organicamente en los principales buscadores, como Google, Bing, etc.',
   },
 ];
 
