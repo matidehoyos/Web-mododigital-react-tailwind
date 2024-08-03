@@ -1,13 +1,19 @@
-import React from 'react';
 import { FaCheck } from 'react-icons/fa';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Ecommerce = () => {
+  useEffect(() => {
+    AOS.init(); 
+  }, []);
+
   return (
-    <div className='w-[100%] pt-[50px] md:pt-[25px] pb-16 px-[15px] md:px-[20px] bg-[rgb(30,30,30)] md:bg-[#222]'>
+    <div className='w-[100%] pt-[50px] md:pt-[25px] pb-16 px-[15px] md:px-[20px] bg-[rgb(20,20,20)] md:bg-[#222]'>
     <h4 className='text-[22px] md:text-[24px] xl:text-[26px] text-verde-900 opacity-70 font-bold'>Tiendas online</h4>
     <img src="./store1.jpeg" alt="imagen pagina web" className='w-[85%] md:w-[100%] h-[170px] md:h-[220px] mt-1 mb-3 object-cover object-top' />    
     <p className='text-[16px] md:text-[18px] text-gray-500 opacity-50 font-bold'>Que incluye?</p>
-    <ul class="mt-1 pt-3 list-none text-[18px] font-[300] drop-shadow text-gray-400 tracking-[.5px] leading-tight border-t border-white border-opacity-10">
+    <ul class="mt-1 pt-3 list-none text-[18px] font-[300] drop-shadow text-gray-400 tracking-[.5px] leading-tight border-t border-white border-opacity-10" data-aos="fade-right" data-aos-duration="800">
       <li class="flex items-baseline mb-[1px] md:font-[500]"><FaCheck class="mr-1 md:mr-2 text-verde-900 text-[10px] md:text-[14px]" />Panel de control autoadministrable.</li>
       <li class="flex items-baseline mb-[1px] md:font-[500]"><FaCheck class="mr-1 md:mr-2 text-verde-900 text-[10px] md:text-[14px]"/>Productos y categorias ilimitados.</li>
       <li class="flex items-baseline mb-[1px] md:font-[500]"><FaCheck class="mr-1 md:mr-2 text-verde-900 text-[10px] md:text-[14px]" />Metodos de pago en linea.</li>

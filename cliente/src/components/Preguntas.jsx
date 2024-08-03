@@ -52,9 +52,9 @@ const Preguntas = () => {
 
   return (
     <div className='py-[70px] md:py-[100px] px-[15px] md:px-[140px] bg-[#080808]' id='frec'>
-      <h4 className='mb-[22px] md:mb-[40px] text-[22px] md:text-[28px] font-[700] tracking-[.6px] text-gray-600 drop-shadow' data-aos="fade-right">Preguntas frecuentes</h4>
+      <h4 className='mb-[22px] md:mb-[40px] text-[22px] md:text-[28px] font-[700] tracking-[.6px] text-gray-600 drop-shadow' data-aos="fade-right" data-aos-duration="800">Preguntas frecuentes</h4>
       {preguntas.map((pregunta) => (
-        <div key={pregunta.id} className='bg-[#0c0c0c] mb-2 md:mb-3' data-aos="fade-right">
+        <div key={pregunta.id} className='bg-[#0c0c0c] mb-2 md:mb-3' data-aos="fade-right" data-aos-duration="800">
           <button 
             className='w-[100%] py-1 md:px-2 text-[#8e8e8e] text-[18px] md:text-[20px] font-[700] md:font-[700] text-left tracking-[.5px] dropshadow'
             onClick={() => toggleRespuesta(pregunta.id)}
