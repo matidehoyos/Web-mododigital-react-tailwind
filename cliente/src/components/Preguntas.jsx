@@ -46,17 +46,17 @@ const Preguntas = () => {
   };
 
   return (
-    <div className='py-[60px] px-[15px] bg-[#050505]' id='frec'>
-      <h4 className='mb-[12px] text-[24px] font-[700] text-gray-400'>Preguntas frecuentes</h4>
+    <div className='py-[70px] px-[15px] bg-[#080808]' id='frec'>
+      <h4 className='mb-[22px] text-[22px] font-[700] tracking-[.6px] text-gray-400'>Preguntas frecuentes</h4>
       {preguntas.map((pregunta) => (
         <div key={pregunta.id} className='bg-[#0c0c0c] mb-2'>
           <button 
-            className='w-[100%] py-1 text-verde-900 opacity-90 text-[20px] text-left tracking-[.5px] '
+            className='w-[100%] py-1 text-[#10855a] text-[18px] font-[600] text-left tracking-[.5px] '
             onClick={() => toggleRespuesta(pregunta.id)}
           >
             {pregunta.pregunta}
           </button>
-          {pregunta.abierto && <p className='py-3 text-gray-400 text-[18px] font-[600] tracking-[.6px] leading-[22px]'>{pregunta.respuesta}</p>}
+          {pregunta.abierto && <p className='py-3 text-gray-400 text-[16px] font-[600] tracking-[.6px] leading-[21px]'>{pregunta.respuesta}</p>}
         </div>
       ))}
     </div>
