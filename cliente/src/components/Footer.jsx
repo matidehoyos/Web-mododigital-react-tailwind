@@ -1,46 +1,35 @@
-import { MdFacebook } from "react-icons/md";
-import { FaEnvelope, FaEnvelopeSquare, FaInstagram } from 'react-icons/fa';
-import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaEnvelope, FaInstagram } from 'react-icons/fa';
 import { IoLocationSharp } from "react-icons/io5";
-import { MdOutlineAlternateEmail } from "react-icons/md";
-import { FaPhoneAlt } from "react-icons/fa";
 import { FaArrowUp } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
-import React, { useState } from 'react';
+import { useEffect } from 'react';
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-  const [error, setError] = useState(null);
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch('/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          to: email,
-          subject: 'Subject of email',
-          html: 'HTML content of email',
-        }),
+  useEffect(() => {
+    const anchors = document.querySelectorAll('a[href^="#"]');
+    anchors.forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
       });
+    });
 
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-
-      const responseData = await response.json();
-    } catch (error) {
-      setError(error.message);
-    }
-  };
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-  };
-
+    return () => {
+      anchors.forEach(anchor => {
+        anchor.removeEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        });
+      });
+    };
+  }, []);
+ 
   return (
     <div className='bg-black pt-[70px] xl:pt-[120px]'>
           <div className='mb-[40px]'>
@@ -50,7 +39,7 @@ const Footer = () => {
             <p className="w-[100%] mt-3 text-[18px] xl:text-[22px] font-[500] text-gray-500 text-center"><a target="_blank" href='https://www.instagram.com/mododigital.tech/'><FaInstagram className="inline text-azul-900 text-[22px] xl:text-[26px] opacity-80 mr-2"/>instagram</a></p>
           </div>
 
-         <div className="w-screen my-[60px] flex justify-center"><a className='px-5 py-3 bg-[#111] border border-[#222] rounded-md' href="#" onClick={() => window.scrollTo(0, 0)}><FaArrowUp className="text-gray-400 text-[24px] font-[800]"/></a></div>
+         <div className="w-screen my-[60px] flex justify-center"><a className='px-5 py-3 bg-[#111] border border-[#222] rounded-md' href="#header" onClick={() => window.scrollTo(0, 0)}><FaArrowUp className="text-gray-400 text-[24px] font-[800]"/></a></div>
         <footer className="py-3 xl:py-5 text-[14px] xl:text-[18px] xl:font-[500] text-gray-400 text-center trackig-[.6px] leading-[23px] border-t border-gray-800">Todos los derechos reservados - Copyright 2024 </footer>
     </div>
   )
