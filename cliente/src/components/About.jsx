@@ -16,7 +16,7 @@ const About = () => {
           <img src="/ab.jpeg" className='w-[100%] h-[280px] object-cover object-center  md:w-[100%] md:h-[auto] rounded-sm' alt="Imagen oficina" data-aos="fade-up" data-aos-duration="800"/>
        </div>
        <div className='md:flex-col md:justify-start items-start md:w-[90%] mx-auto'>
-            <p className='md:w-[100%] xl:w-[100%] mt-[20px] md:mt-[20px] text-[18px] md:text-[26px] font-[500] md:text-left text-gray-500 tracking-[.3px] leading-[24px] md:leading-[30px] italic' data-aos="fade-up" data-aos-duration="800">Somos una agencia de desarrollo web, con base en Mar Del Plata, Argentina. Nos apaciona la innovacion y el descubrimiento de nuevas tecnologías. Nos actualizamos constantemente, para  garantizar siempre un producto vigente, innovador, y vanguardia.</p>
+            <p className='md:w-[100%] xl:w-[100%] mt-[20px] md:mt-[20px] text-[18px] md:text-[26px] font-[500] md:text-left text-gray-500 tracking-[.3px] leading-[24px] md:leading-[30px] italic' data-aos="fade-up" data-aos-duration="800">Somos una agencia de desarrollo web, con base en Mar Del Plata, Argentina. Nos apasiona la innovacion y el descubrimiento de nuevas tecnologías. Nos actualizamos constantemente, para  garantizar siempre un producto vigente, innovador, y vanguardia.</p>
        </div>
        <img src="./zz.png" className='w-[70%] md:hidden mx-auto mt-[30px]' alt="logo modo digital." />
     </div>

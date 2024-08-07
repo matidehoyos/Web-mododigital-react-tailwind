@@ -25,7 +25,7 @@ const Carrusel = () => {
           key={index}
           src={image}
           alt={`Imagen ${index + 1}`}
-          className={`absolute w-full h-auto object-cover transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
+          className={`absolute w-[400px] h-[400px] mx-auto object-cover object-center transition-opacity duration-1000 ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
         />
       ))}
     </div>
