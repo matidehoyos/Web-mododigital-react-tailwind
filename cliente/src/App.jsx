@@ -1,6 +1,7 @@
 import './App.css'
 import About from './components/About'
 import Carasterist from './components/Caracterist'
+import Carrusel from './components/Carrusel'
 import Contacto from './components/Contacto'
 import Ecommerce from './components/Ecommerce'
 import Emprend from './components/Emprend'
@@ -22,6 +23,7 @@ function App() {
         <Interact />
         <Carasterist />
         <Contacto />
+        <Carrusel />
         <About />
         <Preguntas />
         <Footer />
