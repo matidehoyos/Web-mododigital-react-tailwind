@@ -26,7 +26,7 @@ const NavBar = () => {
 
 
   return (
-    <div className={`w-full fixed py-2 md:py-4 z-50 flex justify-between bg-transparent transition-colors duration-300 ${isScrolled ? "bg-[#033b3f] border-b border-azul-900" : "bg-transparent"}`}>
+    <div className={`w-full fixed py-2 md:py-4 z-50 flex justify-between transition-colors duration-300 ${isScrolled ? "bg-[#033b3f] border-b border-azul-900" : "bg-transparent"}`}>
         <img className='w-11 md:w-12 xl:w-14 ml-[10px] md:ml-[20px] xl:ml-[40px]' src="./logo.png" alt="Logo ModoDigital"  />
         <ul className={`hidden lg:flex space-x-4 mr-[40px]`}>
           <li><a href="#tipos" className='text-lg text-green-500 lg:hover:text-azul-900'>Servicios</a></li>
