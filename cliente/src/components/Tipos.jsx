@@ -12,7 +12,7 @@ const Tipos = () => {
 
   return (
     <div className="w-[100%] pt-[50px] md:py-[80px] bg-white lg:bg-[#aaa]" id="tipos">
-        <h2 className='text-[20px] md:pb-[30px] md:text-[24px] xl:text-[32px] font-[500] text-center tracking-[.5px] text-[#222] opacity-70 drop-shadow' data-aos="zoom-in" data-aos-duration="800">¿Que tipos de webs creamos?</h2>
+        <h2 className='text-[22px] md:pb-[30px] md:text-[24px] xl:text-[32px] font-[700] text-center tracking-[.5px] text-[#222] opacity-80 drop-shadow' data-aos="zoom-in" data-aos-duration="800">¿Que tipos de webs creamos?</h2>
         <div className='w-[100%] xl:w-[90%] md:py-[0px] xl:mx-auto md:flex md:justify-center md:items-stretch md:gap-4 md:flex-wrap xl:justify-center xl:items-strech xl:gap-10'>
           <div className='md:w-[44%] xl:w-[29%] lg:bg-[#151515] overflow-x-hidden md:border md:border-black xl:rounded-md' data-aos="fade-up" data-aos-duration="800">
             <Ecommerce />
