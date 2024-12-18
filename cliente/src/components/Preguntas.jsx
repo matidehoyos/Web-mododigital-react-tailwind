@@ -1,6 +1,6 @@
+import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect, useState } from 'react';
 
 const Preguntas = () => {
   AOS.init(); 
@@ -52,7 +52,7 @@ const Preguntas = () => {
 
   return (
     <div className='py-[70px] md:py-[100px] px-[15px] md:px-[140px] bg-[#080808]' id='frec'>
-      <h4 className='mb-[22px] md:mb-[40px] text-[22px] md:text-[28px] font-[700] tracking-[.6px] text-gray-600 drop-shadow' data-aos="fade-right" data-aos-duration="800">Preguntas frecuentes</h4>
+      <h4 className='mb-[22px] md:mb-[40px] text-[22px] md:text-[28px] font-[700] tracking-[.6px] text-green-900 drop-shadow' data-aos="fade-right" data-aos-duration="800">Preguntas frecuentes</h4>
       {preguntas.map((pregunta) => (
         <div key={pregunta.id} className='bg-[#0c0c0c] mb-2 md:mb-3' data-aos="fade-right" data-aos-duration="800">
           <button 
